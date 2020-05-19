@@ -27,3 +27,12 @@ nav a {
     background-size: 100vw 600px;
     background-repeat: no-repeat;
 }
+/*carousel*/
+.foto-carousel {
+        width: 250px;
+        height: auto;
+}
+/*footer*/
+.footer {
+color: black;
+}
