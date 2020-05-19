@@ -4,10 +4,12 @@ body {
     border: 0;
     font-family: "Balsamiq", "sans serif";
 }
+html {
+    scroll-behavior: smooth;
+}
 /* Navbar */
 nav{
     background: #AF33FF;
-    font-weight: 700;
     }
 
 nav a {
@@ -19,3 +21,9 @@ nav a {
     font-size: 37px;
 }
 /*hero-section*/
+#hero {
+    background-image: url("../img/hero-section.jpg");
+    background-position: top;
+    background-size: 100vw 600px;
+    background-repeat: no-repeat;
+}

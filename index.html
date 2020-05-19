@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
     <!--Navbar-->
-     <!--Navbar-->
+
   <nav class="navbar navbar-expand-lg" id="menu">
     <div class="container">
       <a class="navbar-brand text-light" href="#"> <span class="logo"> Daniela</span></a>
@@ -26,26 +27,192 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Sobre mí <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#sobremi">Sobre mí <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experiencia</a>
+            <a class="nav-link" href="#experiencia">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Trabajos</a>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#trabajos">Trabajos</a>
+          <li class="nav-item" >
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!--Hero section-->
+<div class="container" id="wrapper">
+    <!--Hero section-->
+    <div class="container" id="hero">
+        
+
+
+    </div>
    
    
 
+ <!--Cards mis trabajos-->
+    <section class="container text-center pb-5" id="recetas">
 
+        <h1 class="text-center"> Mis trabajos</h1>
+
+        <div class="row">
+
+            <div class="card-deck" id="trabajos">
+
+                <div class="card">
+                        <img class="card-img-top" src="assets/img/meet_coffee.png" alt="meetandcoffee">
+                    <div class="card-body">
+                    <h4 class="card-title font-weight-bold text-left">Desafio meet and coffee</h4>
+                    <p class="card-text text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugit
+                        natus
+                        nemo
+                        autem odio necessitatibus similique provident voluptate assumenda </p>
+                        <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#meet">Ver más</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                        <img class="card-img-top" src="assets/img/iguana_page.png" alt="iguanapage">
+                    <div class="card-body">
+                         <h4 class="card-title font-weight-bold text-left">Desafío Iguana page</h4>
+                        <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus,
+                        dignissimos,
+                        alias itaque molestiae numquam assumenda consequatur neque fuga</p>
+                        <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#iguana">Ver más</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                        <img class="card-img-top" src="assets/img/suricata.png" alt="Suricata">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold text-left">Desafío Suricata</h4>
+                        <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+                        accusamus
+                        velit
+                        saepe blanditiis eum vero soluta possimus in itaque ad reiciendis</p>
+                        <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#suricata">Ver más</button>
+                    </div>
+                </div>
+            </div> <!-- fin card-deck-->
+
+        </div> <!-- fin row-->
+    </section>
+    <section class="container text-center pb-5" id="recetas">
+  
+        <div class="row">
+  
+          <div class="card-deck">
+  
+            <div class="card">
+              <img class="card-img-top" src="assets/img/cuppon.png" alt="Desafiocuppon">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-left">Desafío Cuppon</h4>
+                <p class="card-text text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugit natus
+                  nemo
+                  autem odio necessitatibus similique provident voluptate assumenda </p>
+                  <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#cuppon">Ver más</button>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img class="card-img-top" src="assets/img/ricomida.png" alt="desafioricomica">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-left">Desafío Ricomida</h4>
+                <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus,
+                  dignissimos,
+                  alias itaque molestiae numquam assumenda consequatur neque fuga</p>
+                  <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#ricomida">Ver más</button>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img class="card-img-top" src="assets/img/dmark.png" alt="dmark">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-left">Desafío D-mark</h4>
+                <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere accusamus
+                  velit
+                  saepe blanditiis eum vero soluta possimus in itaque ad reiciendis</p>
+                  <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#D-mark">Ver más</button>
+              </div>
+            </div>
+  
+          </div> <!-- fin card-deck-->
+  
+        </div> <!-- fin row-->
+    </section>
+    <!--modal 1-->
+    <div class="modal fade" id="asado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Asado en la patagonia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card-1.jpg" class="img-fluid my-3" alt="asado">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat totam rerum expedita maxime natus voluptas fugiat dolorum! Qui blanditiis ex, cupiditate dolores fugit placeat consequatur ad repellat voluptate fugiat laudantium?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit omnis cupiditate ullam suscipit quibusdam distinctio! Exercitationem fugit itaque ipsum! Dignissimos minus ut at? Veniam incidunt vitae optio. Corrupti, praesentium deleniti.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ratione consequuntur cumque molestiae magni pariatur. Itaque cumque libero quaerat minus ab cum velit, magni vitae eos tenetur quasi natus assumenda.</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+      <!--modal 2-->
+      <div class="modal fade" id="papas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Papas de la patagonia</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/card-2.jpg" class="img-fluid my-3" alt="papas">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat totam rerum expedita maxime natus voluptas fugiat dolorum! Qui blanditiis ex, cupiditate dolores fugit placeat consequatur ad repellat voluptate fugiat laudantium?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit omnis cupiditate ullam suscipit quibusdam distinctio! Exercitationem fugit itaque ipsum! Dignissimos minus ut at? Veniam incidunt vitae optio. Corrupti, praesentium deleniti.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ratione consequuntur cumque molestiae magni pariatur. Itaque cumque libero quaerat minus ab cum velit, magni vitae eos tenetur quasi natus assumenda.</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal 3-->
+      <div class="modal fade" id="salmones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Salmones de Alaska</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/card-3.jpg" class="img-fluid my-3" alt="salmones">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat totam rerum expedita maxime natus voluptas fugiat dolorum! Qui blanditiis ex, cupiditate dolores fugit placeat consequatur ad repellat voluptate fugiat laudantium?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit omnis cupiditate ullam suscipit quibusdam distinctio! Exercitationem fugit itaque ipsum! Dignissimos minus ut at? Veniam incidunt vitae optio. Corrupti, praesentium deleniti.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ratione consequuntur cumque molestiae magni pariatur. Itaque cumque libero quaerat minus ab cum velit, magni vitae eos tenetur quasi natus assumenda.</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</div>
 
 
 
