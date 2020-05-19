@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Balsamiq", "sans serif";
+}
+/* Navbar */
+nav{
+    background: #AF33FF;
+    font-weight: 700;
+    }
+
+nav a {
+    color:#ffffff;
+}
+
+.logo {
+    font-family: "Balsamiq Sans", cursive;
+    font-size: 37px;
+}
+/*hero-section*/
