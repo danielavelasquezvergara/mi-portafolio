@@ -39,6 +39,7 @@ h1 {
 /* Navbar */
 nav{
     background: #e4adbc;
+    height: 150px;
     }
 
 nav a {
@@ -87,6 +88,7 @@ nav a {
 .footer {
 color: #ffffff;
 background: #e4adbc;
+height: 150px;
 }
 /*Inicio media*/
 @media (min-width: 480px) {
