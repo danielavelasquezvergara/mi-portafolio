@@ -3,10 +3,33 @@ body {
     padding: 0;
     border: 0;
     font-family: "Balsamiq", "sans serif";
+    color: black;
 }
 html {
     scroll-behavior: smooth;
 }
+h1 {
+    font-size: 50px;
+    
+    
+  }
+  h2 {
+    font-size: 25px;
+    
+    
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 17px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 16px 0px;
+    text-align: center;
+  }
 /* Navbar */
 nav{
     background: #AF33FF;
@@ -32,6 +55,16 @@ nav a {
         width: 250px;
         height: auto;
 }
+
+/*experiencia*/
+#experiencia img {
+    width: 300px;
+    height: auto;
+    padding: 16px 0px;
+    margin: 0px;
+
+}
+
 /*footer*/
 .footer {
 color: black;
