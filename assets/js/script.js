@@ -10,7 +10,9 @@ $(function(){
         });
             } 
         });
-    $('[data-togle="popover"]').popover();
 
-    $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="tooltip"]').tooltip();
+
+    $('[data-toggle="popover"]').popover();
 });
+
