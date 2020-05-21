@@ -90,6 +90,7 @@ nav a {
 }
 #carousel {
     background: #000000;
+    display: none !important;
 }
 
 /*experiencia*/
@@ -139,9 +140,3 @@ height: 150px;
     
  
 } /*Fin media*/
-
-/* Cosas Nuevas */
-
-#carousel {
-    display: none !important;
-}
