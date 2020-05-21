@@ -38,8 +38,11 @@ h1 {
   }
 /* Navbar */
 nav{
-    background: #e4adbc;
+    background: #D6C5F3;
     height: 150px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
     }
 
 nav a {
@@ -50,17 +53,38 @@ nav a {
     font-family: "Balsamiq Sans", cursive;
     font-size: 37px;
 }
-/*hero-section*/
 #hero {
-    background-image: url("../img/hero-section.jpg");
-    background-position: top;
-    background-size: 100vw 600px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-image: url('../img/hero-section.jpg');
 }
+#hero h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
 /*carousel*/
 .foto-carousel {
         width: 250px;
         height: auto;
+}
+.carousel-indicators {
+    top: 280px;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#carousel {
+    background: #000000;
 }
 
 /*experiencia*/
@@ -77,6 +101,8 @@ nav a {
 }
 
 /*Mis trabajos*/
+
+
 #trabajos button {
     
     
@@ -87,9 +113,14 @@ nav a {
 /*footer*/
 .footer {
 color: #ffffff;
-background: #e4adbc;
+background: #F3C5DD;
 height: 150px;
+} 
+.footer-logos{
+    margin: 10px
 }
+
+
 /*Inicio media*/
 @media (min-width: 480px) {
     /*Experiencia*/
@@ -97,6 +128,6 @@ height: 150px;
         width: 550px;
         text-align: left;
     }
-
+    
  
 } /*Fin media*/
