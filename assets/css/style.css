@@ -118,12 +118,14 @@ nav a {
 
 /*footer*/
 .footer {
-color: #ffffff;
 background: #F3C5DD;
 height: 150px;
 } 
 .footer-logos{
     margin: 10px
+}
+.footer a{
+    color: #ffffff;
 }
 
 /*Inicio media*/
