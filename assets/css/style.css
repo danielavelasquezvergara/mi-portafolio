@@ -37,13 +37,17 @@ h1 {
     text-align: center;
   }
 /* Navbar */
-nav{
-    background: #D6C5F3;
-    height: 150px;
+.navbar {
     position: fixed;
     top: 0;
+    width: 100%;
+}
+
+nav {
+    background: #D6C5F3;
+    height: 150px;
     z-index: 1;
-    }
+}
 
 nav a {
     color:#ffffff;
@@ -59,6 +63,7 @@ nav a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top:1100px;
     background-image: url('../img/hero-section.jpg');
 }
 #hero h1{
@@ -120,7 +125,6 @@ height: 150px;
     margin: 10px
 }
 
-
 /*Inicio media*/
 @media (min-width: 480px) {
     /*Experiencia*/
@@ -128,6 +132,16 @@ height: 150px;
         width: 550px;
         text-align: left;
     }
+
+    #carousel {
+        display: block !important;
+    }
     
  
 } /*Fin media*/
+
+/* Cosas Nuevas */
+
+#carousel {
+    display: none !important;
+}
